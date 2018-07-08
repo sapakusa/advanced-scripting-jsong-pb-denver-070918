@@ -81,7 +81,7 @@ P2SH addresses have a very similar structure to P2PKH addresses. Namely, there's
 
 Specifically, P2SH uses the 5 byte one mainnet which translates to addresses that start with a 3 in base58.
 
-### Test Driven Examples
+### Test Driven Exercise
 
 Write methods to translate h160 to p2sh and p2pkh addresses.
 
@@ -127,7 +127,7 @@ sig = Signature.parse(bytes.fromhex('3045022100dc92655fe37036f47756db8102e0d7d5e
 print(point.verify(z, sig))
 ```
 
-### Exercise
+### Try it
 
 #### Validate the second signature of the first input
 
